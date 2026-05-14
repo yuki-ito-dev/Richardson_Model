@@ -381,9 +381,9 @@ with st.expander("\CID{1865} 数学的解析 (固有値とシステムの安定�
     
     if np.all(reals < 0):
         if np.any(np.abs(imags) > 1e-5):
-            st.success("\u2705 **安定な渦状収束 (Spiral Sink):** 全ての固有値の実部が負で、虚部が存在します。軍備は振動しながら均衡点へ収束します。")
+            st.success("\UTF{2705} **安定な渦状収束 (Spiral Sink):** 全ての固有値の実部が負で、虚部が存在します。軍備は振動しながら均衡点へ収束します。")
         else:
-            st.success("\u2705 **安定な結節点 (Stable Node):** 全ての固有値が負の実数です。軍備は振動することなく滑らかに均衡点へ収束します。")
+            st.success("\UTF{2705} **安定な結節点 (Stable Node):** 全ての固有値が負の実数です。軍備は振動することなく滑らかに均衡点へ収束します。")
     elif np.any(reals > 0):
         st.error("\CID{1823} **不安定・発散 (Unstable):** 正の実部を持つ固有値が存在します。軍拡競争が暴走・発散する傾向にあります。")
     else:
