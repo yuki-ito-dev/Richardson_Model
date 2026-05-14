@@ -1,7 +1,6 @@
 streamlit
 numpy
 pandas
-matplotlib.pyplot
 matplotlib
 japanize-matplotlib
 mpl_toolkits.mplot3d
