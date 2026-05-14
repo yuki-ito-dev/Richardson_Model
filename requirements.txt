@@ -3,5 +3,4 @@ numpy
 pandas
 matplotlib
 japanize-matplotlib
-mpl_toolkits.mplot3d
 setuptools
